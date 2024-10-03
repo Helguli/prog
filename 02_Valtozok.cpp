@@ -31,6 +31,13 @@ int main()
     // Próbáld ki, mi történik, ha az alábbi kódot kiveszed a kommentből!
     // int 12val;
 
+    // Az int típus általában 16 vagy 32 bit (2 vagy 4 bájt) hosszú
+    // Ha nagyobb számot szeretnénk tárolni, akkor tudjuk növelni a tároló méretét.
+    // Mi történik, ha megváltoztatjuk a tároló méretét kisebbre?
+    long long int hosszuszam = 1232133243546546;
+
+    cout << "Long long int: " << hosszuszam << endl;
+
     // A szóköz és enter elhagyható utasítások között, illetve operátorok (műveleti jelek) mellett.
     x1=23;x3=15;
 
